@@ -32,3 +32,26 @@
 
 # 1.4 Forking and Cloning Reflection
 
+## Creating a new repo
+
+Login into Github at www.github.com (Links to an external site.) (Links to an external site.)
+Click the plus sign on the top right corner (next to your avatar)
+On the drop down menu, click "New repository"
+Now, choose a name, set to public, and choose MIT License
+Click "Create repository" at the bottom of the page
+
+## Forking a repo
+
+Find the target repository on Github.com
+Click on the fork in the upper right hand corner (under your avatar)
+A pop up window will ask where you want to fork the repository. Click on your own avatar.
+
+## Cloning a repo
+
+Copy the HTTPS link located near the top of the screen
+In terminal, find the directory you want to clone the repository to
+type "git clone https://github.com/linkinfo.git" but with your link pasted instead of mine
+
+Forking a repository allows you to make changes to a project without potentially adversely affecting the original project. This fork will still be linked to the original, and , after sufficient testing, can be remerged with the original. It would be much more difficult to merge a new project into the original. With forking, you can also use the copied project for your own projects, modified or not (depending on license of course).
+
+I struggled a bit with the command line while setting up git. I set up git before going through the command line lesson in this section, so I had little idea what I was doing. It was easy to do, since the instructions are very clear, but I struggled to understand what I was doing. Now that I have a bit more knowledge, that part would have been much easier to understand.
