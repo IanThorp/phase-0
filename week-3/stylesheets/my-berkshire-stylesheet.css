@@ -1,0 +1,106 @@
+body {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+section {
+  border-bottom: 1px solid #000;
+}
+
+header {
+  border-bottom: 1px solid #000;
+}
+
+#columns {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+#geico {
+  text-align: center;
+  font-size: 12px;
+}
+
+#geico img {
+  display: block;
+  margin: auto;
+}
+
+ul {
+  margin-top: 0px;
+}
+
+ul p {
+  font-size: 0.75em;
+  margin-top: 3px;
+
+}
+
+li {
+  margin-top: 10px;
+}
+
+header p {
+  font-weight: bold;
+  text-align: center;
+}
+
+#title1 {
+  font-size: 24px;
+}
+
+#address {
+  font-size: 12px;
+}
+
+#address2 {
+  font-size: 12px;
+}
+
+#inc {
+  font-size: 16px;
+}
+.caps {
+  font-size: 36px;
+}
+
+.heading {
+  display: block;
+}
+
+#copy {
+  font-size: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*
+1. What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  There are a few basic things you must know. The format should be '<link type="text/css" rel="stylesheet" href="stylesheet.css"/>'. type and rel should always stay exactly as is, since we are using css. The href should change with the location of your actually sheet.
+
+2. What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  Positioning was definitely the hardest part of the project. The text-align property was very helpful in figuring this part of it all out. Setting the margin and display properties as well was definitely necessary. One quick trick that we found that helped a lot was the use of columns. It made making two columns very very easy. Overall, I definitely struggled with positioning and I don't feel we got everything absolutely perfect, but we got it all really really close.
+
+3. What CSS did you use to modify the element style (like size, color, etc.)
+  I used a few different CSS properties for this, namely font-weight, font-size, color, and background-color.  This part was relatively easy compared to positioning.
+
+4. Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  Yes, the HTML got modified quite a bit. In order to select very specific parts of the text or page, classes and IDs were used for most of it. We used IDs when there was only one element that needed a very specific style. If their was multiple elements that we defined with the same properties, classes were used.
+
+5. When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  Ours was probably not the absolute best. For example, our use of the columns property was a much cleaner way to break up two columns, but the longer table method the original uses is much better for keeping each element list consistantly spaced and properly placed. Certain things like this made the original site easier to follow by reading code and easier to modify without resetting certain margins and such even though it does take few more lines of repetetive code.
+
+*/
