@@ -1,20 +1,20 @@
-!(imgs/3-4-1.png "Challenge 1")
+![Challenge 1](imgs/3-4-1.png "Challenge 1")
 
-!(imgs/3-4-2.png "Challenge 2")
+![Challenge 2](imgs/3-4-2.png "Challenge 2")
 
-!(imgs/3-4-3.png "Challenge 3")
+![Challenge 3](imgs/3-4-3.png "Challenge 3")
 
-!(imgs/3-4-4.png "Challenge 4")
+![Challenge 4](imgs/3-4-4.png "Challenge 4")
 
-!(imgs/3-4-5.png "Challenge 5")
+![Challenge 5](imgs/3-4-5.png "Challenge 5")
 
-!(imgs/3-4-6.png "Challenge 6")
+![Challenge 6](imgs/3-4-6.png "Challenge 6")
 
-!(imgs/3-4-7.png "Challenge 7")
+![Challenge 7](imgs/3-4-7.png "Challenge 7")
 
-!(imgs/3-4-8.png "Challenge 8")
+![Challenge 8](imgs/3-4-8.png "Challenge 8")
 
-!(imgs/3-4-9.png "Challenge 9")
+![Challenge 9](imgs/3-4-9.png "Challenge 9")
 
 
 1. How can you use Chrome's DevTools inspector to help you format or position elements?
