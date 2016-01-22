@@ -52,6 +52,8 @@ puts 10 * 365 * 24 * 60
 
   # Links
 
-  4.2.1 Defining Variables :
-  4.2.2 Simple Strings :
-  4.2.3 Local Variables and basic arithmatic
+  4.2.1 Defining Variables :https://github.com/IanThorp/phase-0/blob/master/week-4/defining-variables.rb
+
+  4.2.2 Simple Strings : https://github.com/IanThorp/phase-0/blob/master/week-4/simple_string.rb
+
+  4.2.3 Local Variables and Basic Arithmatic: https://github.com/IanThorp/phase-0/blob/master/week-4/basic_math.rb
