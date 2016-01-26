@@ -30,7 +30,7 @@ def create_list(list)
   return list
 end
 
-def add_item(list, item, quantity)
+def add_item(list, item, quantity = 1)
   list[item] = quantity
 end
 
@@ -43,18 +43,31 @@ def update_item(list, item, quantity)
 end
 
 def print_list(list)
-  puts list
+  puts "GROCERY LIST"
+  list.each{|key, value| puts "#{key} : #{value}"}
 end
 
 
-grocery_list = create_list({"Peaches" => 2, "Beans" => 3})
-add_item(grocery_list, "Lemonade", 2)
-add_item(grocery_list, "Tomato", 3)
-add_item(grocery_list, "Onion", 1)
-add_item(grocery_list, "Ice Cream", 4)
-print_list(grocery_list)
-remove_item(grocery_list, "Lemonade")
-print_list(grocery_list)
-update_item(grocery_list, "Ice Cream", 1)
-print_list(grocery_list)
+# What did you learn about pseudocode from working on this challenge?
 
+#   I learned, with the help from my guide, how to make much simpler pseudocode. It can still be in plain english, but doesn't need to go to crazy with lenght and complexity.
+
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+
+#   With arrays, it seems like it would have been much harder to keep track of quantity for each of the items as well. With hashes, this was a much easier process, as I could use the key for the item name and the value for the quantity.
+
+# What does a method return?
+
+#   A method returns whatever value it is told to return. In the case of my methods, most of them return the grocery_list hash.
+
+# What kind of things can you pass into methods as arguments?
+
+#   The argument can be an object or a class.
+
+# How can you pass information between methods?
+
+#   You just need to return an object or class. You can than use that object or class as an argument for the next method.
+
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+
+#   I still needed a little help working with hashes. So creating an modifying a hash definitely was solidified for me. Also, using ruby docs gets easier and easier everytime I use it.
