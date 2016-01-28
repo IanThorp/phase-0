@@ -2,7 +2,7 @@
 
 # I worked on this challenge [with: Michael Wang ]
 
-# I spent [] hours on this challenge.
+# I spent [1.5] hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
