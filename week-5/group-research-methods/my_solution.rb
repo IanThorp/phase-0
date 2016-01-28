@@ -36,8 +36,8 @@ def my_hash_modification_method!(source, thing_to_modify)
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
+#my_array_modification_method! will modify an array. It adds a number, which is input as an argument, to all integers present in the array.
+#my_hash_modification_method! will modify a hash. It adds a number, which is input as an argument, to all the values in the hash.
 #
 
 
