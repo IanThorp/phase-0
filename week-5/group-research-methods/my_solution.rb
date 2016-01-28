@@ -21,16 +21,23 @@ end
 
 # Person 2
 def my_array_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.map! do |array_object|
+    if array_object.is_a? Integer
+      array_object += thing_to_modify
+    end
+    array_object
+  end
 end
 
 def my_hash_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.each_key do |key|
+    source[key] += thing_to_modify
+  end
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
+#my_array_modification_method! will modify an array. It adds a number, which is input as an argument, to all integers present in the array.
+#my_hash_modification_method! will modify a hash. It adds a number, which is input as an argument, to all the values in the hash.
 #
 
 
