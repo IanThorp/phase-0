@@ -9,14 +9,14 @@
 # Input: labels(array)
 # Output: random string
 # Steps:
-# Define class name
-# make initialize method, takes array argument
-# IF argument is empty, return error
-# ELSE, set variable @sides
-# define sides method
-# return @sides
-# define roll method
-# return array[0], shuffled
+  # Define class name
+    # make initialize method, takes array argument
+      # IF argument is empty, return error
+      # ELSE, set instance variable sides
+    # DEFINE sides method
+      # RETURN instance variable of sides
+    # DEFINE roll method
+# POP array shuffled
 
 
 # Initial Solution
