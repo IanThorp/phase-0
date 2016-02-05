@@ -85,6 +85,7 @@ class CreditCard
   end
 end
 
+# Tried two different refactors. This is the second.
 
 class CreditCard
   def initialize(credit_number)
@@ -114,3 +115,15 @@ class CreditCard
 
 end
 # Reflection
+
+# What was the most difficult part of this challenge for you and your pair?
+
+#   Getting the initial solution was quite tough. Some of the math that seemed like it would work, in face did not. Ended up having incorrect math, but we went back and checked what was returned every step of the way. I also did the calculations by hand to see where we went wrong. It took a while, but it eventually worked out perfectly.
+
+# What new methods did you find to help you when you refactored?
+
+#   We couldn't decide on which technique was better, so we have two refactored methods. The inject and reduce method were definitely the main ones. The step method also helped out a bit.
+
+# What concepts or learnings were you able to solidify in this challenge?
+
+#   I was able to solidify error finding mainly. Going through each step of your code, although tedious, is a very important thing to do. It helped so much.
