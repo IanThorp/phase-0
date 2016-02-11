@@ -1,0 +1,2 @@
+// As a user, I want to be able to take a set of numbers and perform three different functions separately: sum, mean, and median. This set of numbers can have either an even or odd amount of integers. With sum, I want add all the numbers together. With mean, I want to find the average of all the numbers. With median, I want to find the middlemost number. If the set of numbers has an even amount of integers, find the average of the two middlemost numbers.
+
