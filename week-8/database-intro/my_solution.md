@@ -27,6 +27,9 @@
     ON states.region_id=regions.id
     ORDER BY states.region_id ASC;
 
+![outfit schema](outfit-schema.png)
+
+
 //
 What are databases for?
 
