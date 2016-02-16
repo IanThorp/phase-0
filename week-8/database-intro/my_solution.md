@@ -27,7 +27,7 @@
     ON states.region_id=regions.id
     ORDER BY states.region_id ASC;
 
-![Alt text](/outfit-schema.png "Outfit Schema")
+![Alt text](./outfit-schema.png "Outfit Schema")
 
 
 //
